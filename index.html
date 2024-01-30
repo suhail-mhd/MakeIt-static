@@ -1,127 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MakeiT - Event app landing page</title>
 
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Pod - Live podcast app landing page</title>
-
-	<!-- 
+    <!-- 
 		- favicon
 	-->
-	<!-- <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon"> -->
+    <!-- <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon"> -->
 
-	<!-- 
+    <!-- 
 		- custom css link
 	-->
-	<link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css" />
 
-	<!-- 
+    <!-- 
 		- google font link
 	-->
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
 
-	 <!-- animation -->
-	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-	 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-	 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- animation -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
 
-</head>
-
-<body id="top" bgcolor="white">
-
-	<!-- 
+  <body id="top" bgcolor="white">
+    <!-- 
 		- #HEADERz
 	-->
 
-	<header>
+    <header>
+      <div class="container">
+        <a href="#" class="logo animate__animated animate__fadeInDown">
+          <img
+            src="./assets/images/MakeIt-logo.jpeg"
+            alt="MakeIt logo"
+            style="width: 100px; height: 100px; border-radius: 100%"
+          />
+        </a>
 
-		<div class="container">
+        <nav class="navbar" data-navbar>
+          <button class="nav-close-btn" data-nav-close-btn>
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
 
-			<a href="#" class="logo animate__animated animate__fadeInDown">
-				<img src="./assets/images/MakeIt-logo.jpeg" alt="MakeIt logo" style="width: 100px; height: 100px; border-radius: 100%;">
-			</a>
+          <ul class="navbar-list animate__animated animate__fadeInDown">
+            <li>
+              <a href="#home" class="navbar-link">Home</a>
+            </li>
 
-			<nav class="navbar" data-navbar>
+            <li>
+              <a href="#features" class="navbar-link">Features</a>
+            </li>
 
-				<button class="nav-close-btn" data-nav-close-btn>
-					<ion-icon name="close-outline"></ion-icon>
-				</button>
+            <li>
+              <a href="#overview" class="navbar-link">Overview</a>
+            </li>
 
-				<ul class="navbar-list animate__animated animate__fadeInDown">
+            <li>
+              <a href="#about" class="navbar-link">About</a>
+            </li>
 
-					<li>
-						<a href="#home" class="navbar-link">Home</a>
-					</li>
+            <li>
+              <a href="#" class="navbar-link">FAQ's</a>
+            </li>
 
-					<li>
-						<a href="#features" class="navbar-link">Features</a>
-					</li>
+            <li>
+              <a
+                target="_blank"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSevjjeGnW5mC9a6QghvybdocR4wxHRgsRKQVBWkTliiUecGRw/viewform"
+                class="btn-primary"
+                >Join Waitlist</a
+              >
+            </li>
+          </ul>
+        </nav>
 
-					<li>
-						<a href="#overview" class="navbar-link">Overview</a>
-					</li>
+        <button class="nav-open-btn" data-nav-open-btn>
+          <ion-icon name="menu"></ion-icon>
+        </button>
+      </div>
+    </header>
 
-					<li>
-						<a href="#about" class="navbar-link">About</a>
-					</li>
-
-					<li>
-						<a href="#" class="navbar-link">FAQ's</a>
-					</li>
-
-					<li>
-						<button class="btn-primary">Join Waitlist</button>
-					</li>
-
-				</ul>
-
-			</nav>
-
-			<button class="nav-open-btn" data-nav-open-btn>
-				<ion-icon name="menu"></ion-icon>
-			</button>
-
-		</div>
-
-	</header>
-
-
-
-
-
-	<main>
-
-		<article class="container">
-
-			<!-- 
+    <main>
+      <article class="container">
+        <!-- 
 				- #HERO
 			-->
 
-			<section class="hero animate__animated animate__fadeInDown animate__delay-1s" id="home">
+        <section
+          class="hero animate__animated animate__fadeInDown animate__delay-1s"
+          id="home"
+        >
+          <div class="hero-content">
+            <h2 class="h2 hero-title">
+              Level up your events at no cost, book seamlessly, earn tokens.
+              speak your mind and stay secure!
+            </h2>
 
-				<div class="hero-content">
-					<h2 class="h2 hero-title">Level up your events at no cost, book seamlessly, earn tokens. speak your mind and stay secure!</h2>
+            <button class="btn-primary">Download now</button>
+          </div>
 
-					<button class="btn-primary">Download now</button>
-				</div>
+          <figure class="hero-banner"></figure>
+        </section>
 
-				<figure class="hero-banner"></figure>
-
-			</section>
-
-
-
-
-
-			<!-- 
+        <!-- 
 				- #DOWNLOAD
 			-->
 
-			<!-- <section class="download">
+        <!-- <section class="download">
 
 				<ul class="download-list">
 
@@ -149,177 +147,206 @@
 
 			</section> -->
 
-
-
-
-
-			<!-- 
+        <!-- 
 				- #FEATURES
 			-->
 
-			<section class="features" id="features">
+        <section class="features" id="features">
+			<h2 class="h2 features-title">
+                <strong style="font-size: 3rem">Why</strong><br><span style="width: 16rem;"> to join MakeiT</span>
+              </h2>
+          <div class="grid">
+            <div class="card">
+              <img
+                src="./assets/images/scaleup.jpeg"
+                alt="overview banner"
+                style="width: 50px; border-radius: 10px; margin: auto"
+              />
+              <div class="text-center">
+                <h1 class="title" style="margin: 10px 0;">Scale Up Your Event With Zero Cost!</h1>
+                <p class="subtitle">
+                  Maximize event visibility, zero listing charges! Elevate your
+                  reach with free and premium plans, making a lasting impact on
+                  our event-based social media platform.
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="./assets/images/freedom.jpeg"
+                alt="overview banner"
+                style="width: 50px; border-radius: 10px; margin: auto"
+              />
+              <div class="text-center">
+                <h1 class="title" style="margin: 10px 0;">Freedom to Express!</h1>
+                <p class="subtitle">
+                  Experience true freedom on our platform. Utilizing blockchain
+                  and IPFS for secure file storage, your thoughts remain
+                  uncensored, trustless, and permanently yours.
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="./assets/images/earn token.jpeg"
+                alt="overview banner"
+                style="width: 50px; border-radius: 10px; margin: auto"
+              />
+              <div class="text-center">
+                <h1 class="title" style="margin: 10px 0;">Earn Tokens While Engaging</h1>
+                <p class="subtitle">
+                  Receive MKIT tokens for your active participation, and use
+                  them to access exciting premium plans and exclusive perks.
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="./assets/images/no more breaches.jpeg"
+                alt="overview banner"
+                style="width: 50px; border-radius: 10px; margin: auto"
+              />
+              <div class="text-center">
+                <h1 class="title" style="margin: 10px 0;">Say Goodbye to Breaches!</h1>
+                <p class="subtitle">
+                  As a blockchain-based dApp, your data is secure and beyond our
+                  control, ensuring safety and peace of mind.
+                </p>
+              </div>
+            </div>
+            <div class="blob"></div>
+          </div>
+        </section>
 
-				<ul class="features-list">
-
-					<li class="features-item">
-						<h3 class="h3 features-item-title">Scale Up Your Event With Zero Cost!</h3>
-
-						<p class="features-item-text">
-							Maximize event visibility, zero listing charges! Elevate your reach with free and premium plans, making a lasting impact on our event-based social media platform.
-						</p>
-					</li>
-
-					<li class="features-item">
-						<h3 class="h3 features-item-title">Earn Tokens While Engaging</h3>
-
-						<p class="features-item-text">
-							Receive MKIT tokens for your active participation, and use them to access exciting premium plans and exclusive perks.
-						</p>
-					</li>
-
-				</ul>
-
-				<figure class="feature-banner">
-					<img src="./assets/images/feature-banner-bg.png" alt="circle audio waveform" class="feature-banner-bg">
-
-					<img src="./assets/images/feature-banner.png" alt="pod app" class="banner-img">
-				</figure>
-
-				<ul class="features-list">
-
-					<li class="features-item">
-						<h3 class="h3 features-item-title">Freedom to Express!</h3>
-
-						<p class="features-item-text">
-							Experience true freedom on our platform. Utilizing blockchain and IPFS for secure file storage, your thoughts remain uncensored, trustless, and permanently yours.
-						</p>
-					</li>
-
-					<li class="features-item">
-						<h3 class="h3 features-item-title">Say Goodbye to Breaches!</h3>
-
-						<p class="features-item-text">
-							As a blockchain-based dApp, your data is secure and beyond our control, ensuring safety and peace of mind.
-						</p>
-					</li>
-
-				</ul>
-
-			</section>
-
-
-
-
-
-			<!-- 
+        <!-- 
 				- #OVERVIEW
 			-->
 
-			<section class="overview" id="overview">
+        <section class="overview" id="overview">
+          <div class="overview-card">
+            <figure class="overview-banner">
+              <img
+                src="./assets/images/overview-banner.png"
+                alt="overview banner"
+              />
+            </figure>
 
-				<div class="overview-card">
+            <div class="overview-content">
+              <h2 class="h2 overview-title">
+                <strong style="font-size: 3rem">How</strong> MakeiT Works
+              </h2>
 
-					<figure class="overview-banner">
-						<img src="./assets/images/overview-banner.png" alt="overview banner">
-					</figure>
-
-					<div class="overview-content">
-
-						<h2 class="h2 overview-title">How It Works</h2>
-
-						<!-- <p class="overview-text">
+              <!-- <p class="overview-text">
 							Each time a digital asset is purchased or sold, Sequoir donates a percentage of the fees back into the
 							development
 						</p> -->
 
-						<ul class="overview-list">
+              <ul class="overview-list">
+                <li class="overview-item">
+                  <img
+                    src="./assets/images/one.png"
+                    style="width: 20px"
+                    alt="step"
+                  />
 
-							<li class="overview-item">
-								<ion-icon name="code-working"></ion-icon>
-								<span> <strong>Create profile</strong></span>
-							</li>
+                  <span> <strong>Create profile</strong></span>
+                </li>
 
-							<li class="overview-item">
-								<ion-icon name="code-working"></ion-icon>
+                <li class="overview-item">
+                  <img
+                    src="./assets/images/two.png"
+                    style="width: 20px"
+                    alt="step"
+                  />
 
-								<span><strong>List or book events</strong></span>
-							</li>
+                  <span><strong>List or book events</strong></span>
+                </li>
 
-							<li class="overview-item">
-								<ion-icon name="code-working"></ion-icon>
+                <li class="overview-item">
+                  <img
+                    src="./assets/images/three.png"
+                    style="width: 20px"
+                    alt="step"
+                  />
 
-								<span><strong>Share your thoughts</strong></span>
-							</li>
-							<li class="overview-item">
-								<ion-icon name="code-working"></ion-icon>
+                  <span><strong>Share your thoughts</strong></span>
+                </li>
+                <li class="overview-item">
+                  <img
+                    src="./assets/images/four.png"
+                    style="width: 20px"
+                    alt="step"
+                  />
 
-								<span><strong>Start earnings</strong></span>
-							</li>
+                  <span><strong>Start earnings</strong></span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
 
-						</ul>
-
-					</div>
-
-				</div>
-
-			</section>
-
-
-
-
-
-			<!-- 
+        <!-- 
 				- #BLOG
 			-->
 
-			<section class="about" id="about">
-					<div>
-						<h2 class="h2 hero-title">About Us</h2>
+        <section class="about" id="about">
+          <div class="grid">
+            <div>
+              <h2 class="h2 hero-title">
+                <strong style="font-size: 3rem">What</strong> is MakeiT
+              </h2>
 
-					<p class="overview-text">
-						We are open source and Blockchain based social networking platform for events. Where the users are rewarded for their contributions to the platform .Anyone can showcase their events (online or offline) both in free/premium . One of our goal is to help the local events to scale-up. Ensure the privacy & security, valuable token as rewards . Join us, grow with us, and let's make every event an unforgettable experience!"
-						</p>
-					<button class="btn-primary">Litepaper</button>
-					</div>
+              <p class="about-text">
+                We are open source and Blockchain based social networking
+                platform for events. Where the users are rewarded for their
+                contributions to the platform .Anyone can showcase their events
+                (online or offline) both in free/premium . One of our goal is to
+                help the local events to scale-up. Ensure the privacy &
+                security, valuable token as rewards . Join us, grow with us, and
+                let's make every event an unforgettable experience!"
+              </p>
+              <button class="btn-primary">Litepaper</button>
+            </div>
+            <figure class="overview-about">
+              <img src="./assets/images/about.jpeg" alt="overview about" />
+            </figure>
+          </div>
+        </section>
+      </article>
+    </main>
 
-					<figure class="overview-about">
-						<img src="./assets/images/about.jpeg" alt="overview about">
-					</figure>
-
-
-			</section>
-
-		</article>
-
-	</main>
-
-
-
-
-
-	<!-- 
+    <!-- 
 		- #FOOTER
 	-->
 
-	<footer class="foot">
+    <footer class="foot">
+      <div class="container">
+        <div class="footer-brand">
+          <a href="#" class="logo">
+            <img
+              src="./assets/images/MakeIt-logo.jpeg"
+              alt="MakeIt logo"
+              style="
+                width: 100px;
+                height: 100px;
+                border-radius: 100%;
+                margin-bottom: 2rem;
+              "
+            />
+          </a>
 
-		<div class="container">
+          <div style="display: flex">
+            <p style="margin-right: 1rem">Follow us on</p>
+            <a
+              href="https://www.linkedin.com/company/makeitlabs/"
+              target="_blank"
+              class="social-link"
+            >
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </div>
 
-			<div class="footer-brand">
-
-				<a href="#" class="logo">
-					<img src="./assets/images/MakeIt-logo.jpeg" alt="MakeIt logo" style="width: 100px; height: 100px; border-radius: 100%; margin-bottom: 2rem;">
-				</a>
-
-				<div style="display: flex;">
-					<p style="margin-right: 1rem;">Follow us on</p>
-					<a href="https://www.linkedin.com/company/makeitlabs/" target="_blank" class="social-link">
-						<ion-icon name="logo-linkedin"></ion-icon>
-					</a>
-				</div>
-
-
-				<!-- <ul class="social-list">
+          <!-- <ul class="social-list">
 
 					<li>
 						<a href="https://www.linkedin.com/company/makeitlabs/" target="_blank" class="social-link">
@@ -328,28 +355,24 @@
 					</li>
 
 				</ul> -->
+        </div>
 
-			</div>
+        <div class="footer-link-box">
+          <ul class="footer-list">
+            <li>
+              <h3 class="h5 footer-item-title">Company</h3>
+            </li>
 
-			<div class="footer-link-box">
+            <li>
+              <a href="#" class="footer-link">About Us</a>
+            </li>
 
-				<ul class="footer-list">
+            <li>
+              <a href="#" class="footer-link">Features</a>
+            </li>
+          </ul>
 
-					<li>
-						<h3 class="h5 footer-item-title">Company</h3>
-					</li>
-
-					<li>
-						<a href="#" class="footer-link">About Us</a>
-					</li>
-
-					<li>
-						<a href="#" class="footer-link">Features</a>
-					</li>
-
-				</ul>
-
-				<!-- <ul class="footer-list">
+          <!-- <ul class="footer-list">
 
 					<li>
 						<h3 class="h5 footer-item-title">Products</h3>
@@ -369,31 +392,29 @@
 
 				</ul> -->
 
-				<ul class="footer-list">
+          <ul class="footer-list">
+            <li>
+              <h3 class="h5 footer-item-title">Resources</h3>
+            </li>
 
-					<li>
-						<h3 class="h5 footer-item-title">Resources</h3>
-					</li>
+            <li>
+              <a href="#" class="footer-link">FAQ’S</a>
+            </li>
 
-					<li>
-						<a href="#" class="footer-link">FAQ’S</a>
-					</li>
+            <li>
+              <a href="#" class="footer-link">Testimonial</a>
+            </li>
 
-					<li>
-						<a href="#" class="footer-link">Testimonial</a>
-					</li>
+            <li>
+              <a href="#" class="footer-link">Terms & Conditions</a>
+            </li>
 
-					<li>
-						<a href="#" class="footer-link">Terms & Conditions</a>
-					</li>
+            <li>
+              <a href="#" class="footer-link">Contact</a>
+            </li>
+          </ul>
 
-					<li>
-						<a href="#" class="footer-link">Contact</a>
-					</li>
-
-				</ul>
-
-				<!-- <div class="footer-btn-group">
+          <!-- <div class="footer-btn-group">
 					<a href="#">
 						<img src="./assets/images/footer-1.png" alt="apple store">
 					</a>
@@ -402,48 +423,43 @@
 						<img src="./assets/images/footer-2.png" alt="google play store">
 					</a>
 				</div> -->
+        </div>
+      </div>
 
-			</div>
+      <p class="copyright">
+        &copy; Copyrights 2024 MakeiT All rights reserved.
+      </p>
+    </footer>
 
-		</div>
-
-		<p class="copyright">&copy; Copyrights 2024 MakeIt All rights reserved.</p>
-
-	</footer>
-
-
-
-
-
-	<!-- 
+    <!-- 
 		- #GO TO TOP
 	-->
 
-	<a href="#top" class="go-top" data-go-top>
-		<ion-icon name="chevron-up"></ion-icon>
-	</a>
+    <a href="#top" class="go-top" data-go-top>
+      <ion-icon name="chevron-up"></ion-icon>
+    </a>
 
-
-
-
-
-	<!-- 
+    <!-- 
 		- custom js link
 	-->
-	<script src="./assets/js/script.js"></script>
+    <script src="./assets/js/script.js"></script>
 
-	<!-- 
+    <!-- 
 		- ionicon link
 	-->
-	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
 
-	 <!-- animation -->
-	 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-	 <script>
-		 AOS.init();
-	 </script>
-
-</body>
-
+    <!-- animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>
