@@ -218,6 +218,7 @@ header .container {
   font-size: 30px;
   padding: 3px;
   border-radius: 8px;
+  cursor: pointer;
 }
 
 .nav-close-btn {
@@ -396,7 +397,6 @@ main {
     border-radius: 76% 24% 33% 67% / 68% 55% 45% 32%;
   }
 }
-
 
 /*-----------------------------------*\
  * #OVERVIEW
@@ -606,10 +606,19 @@ footer .container {
     --fs-2: 32px;
   }
 
+  .logo img {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+  }
+
+  .join-btn {
+    margin-left: 5rem;
+  }
+
   .grid {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-
   }
 
   .card {
@@ -658,10 +667,8 @@ footer .container {
   .grid {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-
   }
 
-  
   /**
    * OVERVIEW
    */
@@ -742,11 +749,10 @@ footer .container {
   .footer-link-box {
     grid-template-columns: 1fr 1fr;
   }
-  
+
   .grid {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-
   }
 }
 
@@ -810,6 +816,12 @@ footer .container {
     max-width: 970px;
   }
 
+  .logo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+  }
+
   /**
    * HEADER
    */
@@ -858,6 +870,10 @@ footer .container {
   .navbar .btn-primary {
     display: block;
     margin-left: 15px;
+  }
+
+  .join-btn {
+    display: none;
   }
 
   /**
@@ -911,7 +927,6 @@ footer .container {
   .about-grid {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-
   }
 
   .card {
@@ -941,13 +956,13 @@ footer .container {
    * ABOUT
    */
 
-.about {
-  margin-left: -5rem;
-}
+  .about {
+    margin-left: -5rem;
+  }
 
-.about-text {
-  width: 100%;
-}
+  .about-text {
+    width: 100%;
+  }
 
   /**
    * FOOTER
