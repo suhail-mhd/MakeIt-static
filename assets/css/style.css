@@ -657,7 +657,7 @@ button:focus {
 }
 .carousel .list .item .title,
 .carousel .list .item .topic{
-  font-size: 5em;
+  font-size: 3em;
   font-weight: bold;
   line-height: 1.3em;
 }
@@ -1220,6 +1220,13 @@ button:focus {
     padding-bottom: 50%;
   }
 
+  #home{
+    background:url('../images/showcase.jpeg');
+     background-size:cover;
+     background-position:center center;
+     background-attachment:fixed;
+   }
+
   /**
    * FEATURES
    */
@@ -1345,7 +1352,7 @@ button:focus {
   .grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    gap: 50px;
     margin-left: 10rem;
   }
 
